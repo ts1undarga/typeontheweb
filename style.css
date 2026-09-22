@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'bauhaus_93regular';
+    src: url('fonts/bauhaus_93_regular.woff2') format('woff2'),
+         url('fonts/bauhaus_93_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+div {
+    width: 600px;
+    min-height: 777px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+#mysecondparagraph {
+    font-family: "lores-12", sans-serif;
+    font-weight: 700;
+    text-align: right;
+    width: 50ch;
+    margin-left: auto;
+    margin-bottom: 80px;
+}
+
+#mylargeX {
+    font-size: 4rem;
+    font-family: "lores-12", sans-serif;
+    font-weight: 700;
+}
+
+#mylargeA {
+    font-size: 5rem;
+    font-family: 'bauhaus_93regular';
+}
+
+#myfirstparagraph, #mythirdparagraph {
+    line-height: 36px;
+}
+
+#myfirstparagraph{
+    margin-top: 100px;
+}
